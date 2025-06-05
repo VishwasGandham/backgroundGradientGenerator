@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tagesschrift&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Satisfy&family=Tagesschrift&family=Titillium+Web:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Satisfy&family=Tagesschrift&family=Titillium+Web:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Satisfy&family=Tagesschrift&family=Titillium+Web:ital,wght@0,600;1,600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #8bf98f, #3b89dc);
+  font-size: larger;
+}
+
+h1{
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+  color: linear-gradient(to right, #8bf98f, #3b89dc);
+}
+
+.cont button{
+  font-family: "Satisfy", cursive;
+  border-radius: 20px;
+  font-size: medium;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+section{
+  text-align: center;
+}
+
+section h2{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.copyCode{
+  width: 45vw;
+  font-family: "Titillium Web", sans-serif;
+  box-shadow: 0 0 30px white;
+  border-radius: 20px;
+  cursor: pointer;
+}
